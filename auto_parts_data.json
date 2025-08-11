@@ -1,0 +1,198 @@
+{
+  "thinsmith": [
+    {
+      "id": 1,
+      "part_name": "Back Door",
+      "cost_installation_personal": 2000.00,
+      "srp": 5500.00,
+      "insurance": 8800.00
+    },
+    {
+      "id": 2,
+      "part_name": "Cargo",
+      "cost_installation_personal": 5500.00,
+      "srp": 11000.00,
+      "insurance": 17800.00
+    },
+    {
+      "id": 3,
+      "part_name": "Door",
+      "cost_installation_personal": 2000.00,
+      "srp": 5500.00,
+      "insurance": 8800.00
+    },
+    {
+      "id": 4,
+      "part_name": "Door Glass",
+      "cost_installation_personal": 2000.00,
+      "srp": 5500.00,
+      "insurance": 8800.00
+    },
+    {
+      "id": 5,
+      "part_name": "Fender",
+      "cost_installation_personal": 2000.00,
+      "srp": 5800.00,
+      "insurance": 9200.00
+    },
+    {
+      "id": 6,
+      "part_name": "Front Bumper",
+      "cost_installation_personal": 1500.00,
+      "srp": 3500.00,
+      "insurance": 5600.00
+    },
+    {
+      "id": 7,
+      "part_name": "Front Grille",
+      "cost_installation_personal": 1500.00,
+      "srp": 3500.00,
+      "insurance": 5600.00
+    },
+    {
+      "id": 8,
+      "part_name": "Headlamp",
+      "cost_installation_personal": 1500.00,
+      "srp": 3500.00,
+      "insurance": 5600.00
+    },
+    {
+      "id": 9,
+      "part_name": "Hood",
+      "cost_installation_personal": 2000.00,
+      "srp": 4000.00,
+      "insurance": 6400.00
+    },
+    {
+      "id": 10,
+      "part_name": "Side Mirror",
+      "cost_installation_personal": 500.00,
+      "srp": 1000.00,
+      "insurance": 1600.00
+    },
+    {
+      "id": 11,
+      "part_name": "Sliding Door",
+      "cost_installation_personal": 2000.00,
+      "srp": 5800.00,
+      "insurance": 9200.00
+    },
+    {
+      "id": 12,
+      "part_name": "Stepboard",
+      "cost_installation_personal": 1500.00,
+      "srp": 3500.00,
+      "insurance": 5600.00
+    },
+    {
+      "id": 13,
+      "part_name": "Tail Gate",
+      "cost_installation_personal": 2000.00,
+      "srp": 4000.00,
+      "insurance": 6400.00
+    },
+    {
+      "id": 14,
+      "part_name": "Tail Lamp",
+      "cost_installation_personal": 1500.00,
+      "srp": 3500.00,
+      "insurance": 5600.00
+    },
+    {
+      "id": 15,
+      "part_name": "Windshield",
+      "cost_installation_personal": 500.00,
+      "srp": 1800.00,
+      "insurance": 3500.00
+    },
+    {
+      "id": 16,
+      "part_name": "Sliding Panel",
+      "cost_installation_personal": 2000.00,
+      "srp": 5800.00,
+      "insurance": 7200.00
+    }
+  ],
+  "body_and_paint": [
+    {
+      "id": 1,
+      "part_name": "Back Door",
+      "small_damage": 800.00,
+      "medium_damage": 1500.00,
+      "large_damage": 2500.00,
+      "full_repaint": 3500.00
+    },
+    {
+      "id": 2,
+      "part_name": "Cargo",
+      "small_damage": 1200.00,
+      "medium_damage": 2000.00,
+      "large_damage": 3500.00,
+      "full_repaint": 5000.00
+    },
+    {
+      "id": 3,
+      "part_name": "Door",
+      "small_damage": 600.00,
+      "medium_damage": 1200.00,
+      "large_damage": 2000.00,
+      "full_repaint": 2800.00
+    },
+    {
+      "id": 4,
+      "part_name": "Fender",
+      "small_damage": 700.00,
+      "medium_damage": 1300.00,
+      "large_damage": 2200.00,
+      "full_repaint": 3000.00
+    },
+    {
+      "id": 5,
+      "part_name": "Front Bumper",
+      "small_damage": 500.00,
+      "medium_damage": 1000.00,
+      "large_damage": 1800.00,
+      "full_repaint": 2500.00
+    },
+    {
+      "id": 6,
+      "part_name": "Hood",
+      "small_damage": 800.00,
+      "medium_damage": 1500.00,
+      "large_damage": 2500.00,
+      "full_repaint": 3500.00
+    },
+    {
+      "id": 7,
+      "part_name": "Rear Bumper",
+      "small_damage": 500.00,
+      "medium_damage": 1000.00,
+      "large_damage": 1800.00,
+      "full_repaint": 2500.00
+    },
+    {
+      "id": 8,
+      "part_name": "Side Panel",
+      "small_damage": 900.00,
+      "medium_damage": 1600.00,
+      "large_damage": 2700.00,
+      "full_repaint": 3800.00
+    },
+    {
+      "id": 9,
+      "part_name": "Roof",
+      "small_damage": 1000.00,
+      "medium_damage": 1800.00,
+      "large_damage": 3000.00,
+      "full_repaint": 4200.00
+    },
+    {
+      "id": 10,
+      "part_name": "Tail Gate",
+      "small_damage": 700.00,
+      "medium_damage": 1400.00,
+      "large_damage": 2300.00,
+      "full_repaint": 3200.00
+    }
+  ]
+}
