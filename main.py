@@ -57,9 +57,9 @@ def create_default_json_file(file_path):
             {"id": 3, "part_name": "Door", "cost_installation_personal": 2000.00, "srp": 5500.00, "insurance": 8800.00}
         ],
         "body_and_paint": [
-            {"id": 1, "part_name": "Back Door", "small_damage": 800.00, "medium_damage": 1500.00, "large_damage": 2500.00, "full_repaint": 3500.00},
-            {"id": 2, "part_name": "Cargo", "small_damage": 1200.00, "medium_damage": 2000.00, "large_damage": 3500.00, "full_repaint": 5000.00},
-            {"id": 3, "part_name": "Door", "small_damage": 600.00, "medium_damage": 1200.00, "large_damage": 2000.00, "full_repaint": 2800.00}
+            {"id": 1, "part_name": "Front Bumper", "cost_installation_personal": 2800.00, "srp_personal": 5600.00, "srp_insurance": 9000.00},
+            {"id": 2, "part_name": "Fender", "cost_installation_personal": 2800.00, "srp_personal": 5600.00, "srp_insurance": 9000.00},
+            {"id": 3, "part_name": "Front Door", "cost_installation_personal": 2800.00, "srp_personal": 5600.00, "srp_insurance": 9000.00}
         ]
     }
     try:
@@ -111,24 +111,21 @@ class ThinsmithPartUpdate(BaseModel):
 class BodyPaintPart(BaseModel):
     id: int
     part_name: str
-    small_damage: float
-    medium_damage: float
-    large_damage: float
-    full_repaint: float
+    cost_installation_personal: float
+    srp_personal: float
+    srp_insurance: float
 
 class BodyPaintPartCreate(BaseModel):
     part_name: str
-    small_damage: float
-    medium_damage: float
-    large_damage: float
-    full_repaint: float
+    cost_installation_personal: float
+    srp_personal: float
+    srp_insurance: float
 
 class BodyPaintPartUpdate(BaseModel):
     part_name: Optional[str] = None
-    small_damage: Optional[float] = None
-    medium_damage: Optional[float] = None
-    large_damage: Optional[float] = None
-    full_repaint: Optional[float] = None
+    cost_installation_personal: Optional[float] = None
+    srp_personal: Optional[float] = None
+    srp_insurance: Optional[float] = None
 
 # In-memory databases with automotive parts data loaded from JSON
 data = load_auto_parts_data()
@@ -274,10 +271,9 @@ async def create_body_paint_part(part: BodyPaintPartCreate):
     new_part = {
         "id": body_paint_next_id,
         "part_name": part.part_name,
-        "small_damage": part.small_damage,
-        "medium_damage": part.medium_damage,
-        "large_damage": part.large_damage,
-        "full_repaint": part.full_repaint
+        "cost_installation_personal": part.cost_installation_personal,
+        "srp_personal": part.srp_personal,
+        "srp_insurance": part.srp_insurance
     }
     body_paint_db.append(new_part)
     body_paint_next_id += 1
