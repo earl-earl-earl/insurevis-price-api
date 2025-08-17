@@ -136,6 +136,13 @@
       "srp_insurance": 9000.00
     },
     {
+      "id": 3,
+      "part_name": "Back Door",
+      "cost_installation_personal": 2800.00,
+      "srp_personal": 5600.00,
+      "srp_insurance": 9000.00
+    },
+    {
       "id": 4,
       "part_name": "Sliding Door",
       "cost_installation_personal": 2800.00,
