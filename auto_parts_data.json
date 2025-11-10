@@ -214,62 +214,69 @@
     },
     {
       "id": 6,
+      "part_name": "Grille",
+      "cost_installation_personal": 1500.00,
+      "srp_personal": 3500.00,
+      "srp_insurance": 5600.00
+    },
+    {
+      "id": 7,
       "part_name": "Hood",
       "cost_installation_personal": 2800.00,
       "srp_personal": 5600.00,
       "srp_insurance": 9000.00
     },
     {
-      "id": 7,
+      "id": 8,
       "part_name": "Mirror",
       "cost_installation_personal": 1000.00,
       "srp_personal": 2000.00,
       "srp_insurance": 3200.00
     },
     {
-      "id": 8,
+      "id": 9,
       "part_name": "Pilar",
       "cost_installation_personal": 1500.00,
       "srp_personal": 5600.00,
       "srp_insurance": 9000.00
     },
     {
-      "id": 9,
+      "id": 10,
       "part_name": "Quarter Panel",
       "cost_installation_personal": 2800.00,
       "srp_personal": 5600.00,
       "srp_insurance": 9000.00
     },
     {
-      "id": 10,
+      "id": 11,
       "part_name": "Rocker Panel",
       "cost_installation_personal": 2800.00,
       "srp_personal": 5600.00,
       "srp_insurance": 9000.00
     },
     {
-      "id": 11,
+      "id": 12,
       "part_name": "Roof",
       "cost_installation_personal": 2800.00,
       "srp_personal": 5600.00,
       "srp_insurance": 9000.00
     },
     {
-      "id": 12,
+      "id": 13,
       "part_name": "Running Board",
       "cost_installation_personal": 2800.00,
       "srp_personal": 5600.00,
       "srp_insurance": 9000.00
     },
     {
-      "id": 13,
+      "id": 14,
       "part_name": "Sliding Door",
       "cost_installation_personal": 2800.00,
       "srp_personal": 5600.00,
       "srp_insurance": 9000.00
     },
     {
-      "id": 14,
+      "id": 15,
       "part_name": "Trunk",
       "cost_installation_personal": 2800.00,
       "srp_personal": 5600.00,
